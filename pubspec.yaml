@@ -1,0 +1,24 @@
+name: momo_pills
+description: "A app to remind you to take your pills."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.0-87.0.dev <4.0.0'
+
+dependencies:
+  shared_preferences: ^2.2.2
+  intl: ^0.19.0
+  # push: ^2.1.0
+  # background_fetch: '^1.1.3'
+  
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
